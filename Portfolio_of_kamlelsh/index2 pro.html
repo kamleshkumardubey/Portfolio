@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<h3 lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kamlesh KumarDubey - Frontend Developer- student</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <script>
+        function myFunction() {
+            alert("Your Message has been Submitted!");
+        }
+    </script>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <h1><span>Ka</span>mlesh</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>A Student,Web Developer</p>
+                    <h1>Hi, I'm <span>Kamlesh Kumar </span> <br> Dubey </h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="middle-container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img class="image" src="Kamlesh.jpg" alt="Second image">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a Student, Web Developer / Designer , and <br> Programmer .
+                            I have a passion for Web <br>
+                            Development/Designing and Programming/Coding <br>and love to
+                            create Websites,Softwares and
+                            <br>Mobile Applications.<br>
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">
+                                Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education
+                            </p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience
+                            </p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Developement </span><br>Web app Development</li>
+                                <li><span>App Developement </span><br>Building Android/ios apps</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>FRESHER</span><br>Learning Something New Everyday</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>10th STD</span><br>BSEB 2019</li>
+                                <li><span>COMPUTER ENGINEERING</span><br>Mharishi Markandeshwar Dmeed To Be University
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="sec-middle-container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>I'm a developer, so I know how to create your website to run across devices using the latest
+                            technologies available...</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Development</h2>
+                        <p>I can build the Androis/ios device applications smoothly with latest versions</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Software Development</h2>
+                        <p>I love to code and familiar with latest Programming language and can let your job done
+                            efficiently..</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="tindog.png">
+                        <div class="layer">
+                            <h3>Tindog</h3>
+                            <p>Dating app for your pets</p>
+                            <a href="https://nisarggtrivedi.github.io/Tindo/" target="_blank"> <i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="dice.png" alt="dice-game image">
+                        <div class="layer">
+                            <h3>Dice Game</h3>
+                            <p>Dice game to play With your friends</p>
+                            <a href="https://nisarggtrivedi.github.io/dicegame/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="per.png">
+                        <div class="layer">
+                            <h3>Website</h3>
+                            <p>Personal Portfolio Website</p>
+                            <a href="https://nisarggtrivedi.github.io/Nisargportfolio/" target="_blank"><i
+                                    class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1> <br>
+                        <p style="font-size: small;"><i class="fas fa-paper-plane"></i>dubeykamlesh432@gmail.com</p>
+                        <br>
+                        <p><i class="fas fa-phone-square-alt"></i>+917633862879</p> <br>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/yash.kumardubeykamlesh"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/home"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/iamyashdubeyy/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/kamlesh-kumar-dubey-753a59291/"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/kamleshkumardubey"><i class="fa-brands fa-github"></i></a>
+
+                        </div>
+
+                        <a href="https://docs.google.com/document/d/14Dl8FCJ5TS6Wejveno37so410gIIsFj4N-cyq78dBoE/edit"
+                            class="btn btn2"> Resume <i class="fa-solid fa-download"></i></a>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" onclick="myFunction()" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &#169; Kamlesh. Made with <i class="fas fa-heart"></i> 2024 All rights reserved </p>
+            </div>
+        </div>
+
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script src="https://kit.fontawesome.com/462f495e04.js" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
